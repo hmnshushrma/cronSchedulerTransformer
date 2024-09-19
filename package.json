@@ -1,0 +1,16 @@
+{
+  "name": "cronschedulertransformer",
+  "version": "1.0.0",
+  "description": "This repository converts cron expressions like \"01 13 * * 3,4\" into human-readable strings such as \"At 13:01 on Wednesday and Thursday.\" It handles arrays of cron schedules, supports wildcards (`*` for daily), and formats multiple days for easier understanding of cron jobs.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.6"
+  }
+}
